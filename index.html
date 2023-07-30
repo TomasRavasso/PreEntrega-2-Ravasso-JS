@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Simulador de Compra</title>
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <h1>Simulador de Compra</h1>
+  <div id="productos">
+    <h2>Productos Disponibles</h2>
+    <ul>
+      <li>
+        <span>Heladera</span>
+        <span>Precio: $15000</span>
+        <span>Descuento: 20%</span>
+        <span>Stock: 5</span>
+        <button onclick="agregarAlCarrito(1)">Agregar al Carrito</button>
+      </li>
+      <li>
+        <span>Lavadora</span>
+        <span>Precio: $12000</span>
+        <span>Descuento: 15%</span>
+        <span>Stock: 3</span>
+        <button onclick="agregarAlCarrito(2)">Agregar al Carrito</button>
+      </li>
+      <li>
+        <span>Microwave</span>
+        <span>Precio: $8000</span>
+        <span>Descuento: 10%</span>
+        <span>Stock: 4</span>
+        <button onclick="agregarAlCarrito(3)">Agregar al Carrito</button>
+      </li>
+      <li>
+        <span>Aspiradora</span>
+        <span>Precio: $6000</span>
+        <span>Descuento: 5%</span>
+        <span>Stock: 6</span>
+        <button onclick="agregarAlCarrito(4)">Agregar al Carrito</button>
+      </li>
+    </ul>
+  </div>
+
+  <div id="carrito">
+    <h2>Carrito de Compras</h2>
+    <ul id="listaCarrito">
+      <!-- Los productos agregados al carrito se mostrarán aquí -->
+    </ul>
+    <p>Total: $<span id="total">0</span></p>
+    <button onclick="realizarCompra()">Comprar</button>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

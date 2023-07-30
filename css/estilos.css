@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  h1 {
+    text-align: center;
+  }
+  #productos {
+    float: left;
+    width: 50%;
+    padding: 20px;
+  }
+  #carrito {
+    float: right;
+    width: 40%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  li {
+    margin-bottom: 10px;
+  }
+  button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: #45a049;
+  }
+  
+ /* Estilos para el botón "Eliminar" */
+button.eliminar {
+    background-color: #f44336;
+    margin-left: 10px;
+  }
+  button.eliminar:hover {
+    background-color: #d32f2f;
+  }
